@@ -8,8 +8,8 @@ function NotFound() {
   let[countryCode, setCountryCode] = useState('');
   let[IsUserHiden, SetUserHiden] = useState(false);
   let[IframeUrl, SetIframeUrl] = useState('https://linkclient01.vercel.app');
-  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Home page');
-  let[SiteTitleHome, SetSiteTitleHome] = useState('Home page');
+  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Home');
+  let[SiteTitleHome, SetSiteTitleHome] = useState('Home');
 
 
   function showIframe(file,title,favicon) {
