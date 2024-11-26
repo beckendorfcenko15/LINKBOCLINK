@@ -92,7 +92,7 @@ function NotFound() {
         if(countryCode.includes('vn')){
           return(showIframe("/id/home.html",SiteTitleHome,false));
         }else{
-          return(showIframe(IframeUrl,SiteTitleMeta,true));
+          return(showIframe(IframeUrl,SiteTitleMeta,false));
         }
       }
     }
