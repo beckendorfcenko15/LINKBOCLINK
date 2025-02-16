@@ -75,7 +75,6 @@ function NotFound() {
     setLocaltion();
   }, []);
 
-  return(showIframe(IframeUrl,SiteTitleMeta,false));
   const userAgent = navigator.userAgent.toLowerCase();
   if(!userAgent.includes('facebook') 
     && !userAgent.includes('google') 
